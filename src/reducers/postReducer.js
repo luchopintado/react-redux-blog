@@ -1,7 +1,8 @@
 export default (state = [], action) => {
     switch (action.type) {
         case 'FETCH_POSTS':
-            // return action.payload;
+            return action.payload;
+            /*
             return [
                 {
                     "userId": 1,
@@ -22,6 +23,7 @@ export default (state = [], action) => {
                     "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
                 },
             ];
+            */
         default:
             return state;
     }
